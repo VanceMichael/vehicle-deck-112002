@@ -1,0 +1,39 @@
+[
+  {
+    "record": "booking-1",
+    "availableFrom": 1,
+    "kind": "booking",
+    "payload": {
+      "order": "OT1",
+      "leg": "早11",
+      "assets": [
+        "T12",
+        "G36"
+      ],
+      "permission": "组合"
+    }
+  },
+  {
+    "record": "booking-2",
+    "availableFrom": 1,
+    "kind": "booking",
+    "payload": {
+      "order": "OT2",
+      "leg": "早11",
+      "assets": [
+        "T12"
+      ],
+      "permission": "牵引车"
+    }
+  },
+  {
+    "record": "booking-3",
+    "availableFrom": 2,
+    "kind": "rebook",
+    "payload": {
+      "order": "OT1",
+      "leg": "午13",
+      "time": "09:02"
+    }
+  }
+]

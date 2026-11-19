@@ -1,0 +1,11 @@
+{
+  "sources": [
+    "booking",
+    "ramp",
+    "deck"
+  ],
+  "stages": 4,
+  "originals": [],
+  "originalStages": {},
+  "digests": {}
+}

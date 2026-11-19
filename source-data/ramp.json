@@ -1,0 +1,64 @@
+[
+  {
+    "record": "ramp-1",
+    "availableFrom": 1,
+    "kind": "scan",
+    "payload": {
+      "station": "坡M",
+      "seq": 71,
+      "rev": 1,
+      "cycle": "X5",
+      "direction": "入",
+      "assets": [
+        "T12",
+        "G36"
+      ],
+      "leg": "早11",
+      "time": "08:40"
+    }
+  },
+  {
+    "record": "ramp-2",
+    "availableFrom": 1,
+    "kind": "scan",
+    "payload": {
+      "station": "坡M",
+      "seq": 73,
+      "rev": 1,
+      "cycle": "X8",
+      "direction": "出",
+      "assets": [
+        "T12"
+      ],
+      "leg": "早11",
+      "time": "08:51"
+    }
+  },
+  {
+    "record": "ramp-3",
+    "availableFrom": 2,
+    "kind": "floor",
+    "payload": {
+      "station": "坡M",
+      "oldest": 73
+    }
+  },
+  {
+    "record": "ramp-4",
+    "availableFrom": 4,
+    "kind": "scan",
+    "payload": {
+      "station": "坡M",
+      "seq": 73,
+      "rev": 2,
+      "cycle": "X8",
+      "direction": "出",
+      "assets": [
+        "T12",
+        "G36"
+      ],
+      "leg": "早11",
+      "time": "08:51"
+    }
+  }
+]

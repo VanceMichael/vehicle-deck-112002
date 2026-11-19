@@ -1,0 +1,65 @@
+[
+  {
+    "record": "deck-1",
+    "availableFrom": 1,
+    "kind": "detach",
+    "payload": {
+      "leg": "早11",
+      "layer": "L2",
+      "slot": "D3",
+      "tractor": "T12",
+      "trailer": "G36",
+      "time": "08:45"
+    }
+  },
+  {
+    "record": "deck-2",
+    "availableFrom": 2,
+    "kind": "count",
+    "payload": {
+      "leg": "早11",
+      "layer": "L2",
+      "time": "08:46",
+      "covered": [
+        "D3",
+        "D4"
+      ],
+      "present": {
+        "D3": "G36"
+      },
+      "absent": [
+        "D4"
+      ]
+    }
+  },
+  {
+    "record": "deck-3",
+    "availableFrom": 3,
+    "kind": "signoff",
+    "payload": {
+      "id": "HB2",
+      "leg": "早11",
+      "layer": "L2",
+      "time": "09:00",
+      "seen": {
+        "D3": "G36"
+      },
+      "unchecked": [
+        "D5"
+      ]
+    }
+  },
+  {
+    "record": "deck-4",
+    "availableFrom": 3,
+    "kind": "clear",
+    "payload": {
+      "leg": "午13",
+      "layer": "L1",
+      "slots": [
+        "A1"
+      ],
+      "time": "09:20"
+    }
+  }
+]
