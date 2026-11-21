@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node source-server.mjs",
+    "service": "node service-server.mjs",
     "test": "node --test *.test.mjs"
   }
 }
